@@ -1,5 +1,5 @@
 <?php
-    $host = 'jautis.serveriai.lt';
+    $host = 'localhost';
     $user = 'goislt';
     $pass = 'bhfjuHWfzG';
     $db = 'goislt_goislt';
