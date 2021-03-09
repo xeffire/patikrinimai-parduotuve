@@ -19,6 +19,12 @@ if (isset($_COOKIE['vardas'])) header('Location: main.php');
         <input class="btn btn-primary my-3" type="submit" value="Prisijungti">
         <p class="text-muted">Jei esate neprisiregistravęs - <a href="register.php">Registruokitės</a></p>
     </form>
+    <!-- Komentaras 
+    
+    
+    
+    
+    -->
     <p class="alert alert-warning position-absolute top-0 w-50 text-center <?php if(!isset($_SESSION['msg'])) echo 'invisible';?>">
         <?php
         if (isset($_SESSION['msg'])){
